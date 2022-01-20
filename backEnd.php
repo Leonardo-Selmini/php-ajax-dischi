@@ -72,6 +72,6 @@ $songs = [
     ]
 ];
 
+// trasformo il mio contenuto il un json
 header("Content-Type: application/json");
-
 echo json_encode($songs);
